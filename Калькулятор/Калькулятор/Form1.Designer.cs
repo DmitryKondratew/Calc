@@ -438,6 +438,8 @@
             this.MaximizeBox = false;
             this.Name = "Calculator";
             this.Text = "Калькулятор";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

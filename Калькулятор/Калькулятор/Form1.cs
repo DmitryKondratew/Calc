@@ -41,6 +41,8 @@ namespace Калькулятор
             else if (e.KeyCode == Keys.NumPad8) Number_Click(Number_8, new EventArgs());
             else if (e.KeyCode == Keys.NumPad9) Number_Click(Number_9, new EventArgs());
             else if (e.KeyCode == Keys.Back) Delete_Click(Clear, new EventArgs());
+            else if (e.KeyCode == Keys.Divide) Division_Click(Division, new EventArgs());
+            else if (e.KeyCode == Keys.Multiply) Multiply_Click(Multiply, new EventArgs());
         }
 
         private void Sum_Click(object sender, EventArgs e)
@@ -70,6 +72,8 @@ namespace Калькулятор
             if (this.Width == 320) More.Text = "<";
             else More.Text = ">";
             Timer.Enabled = true;
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -93,6 +97,8 @@ namespace Калькулятор
             textBox1.Text = Factorial(Convert.ToInt32(textBox1.Text)).ToString();
             Option = true;
             choice = -1;
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Number_Click(object sender, EventArgs e)
@@ -115,6 +121,8 @@ namespace Калькулятор
                 textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
                 if (textBox1.Text == "-" || textBox1.Text == "") textBox1.Text = "0";
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Sign_Click(object sender, EventArgs e)
@@ -127,6 +135,8 @@ namespace Калькулятор
             {
 
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Sqrt_Click(object sender, EventArgs e)
@@ -142,6 +152,8 @@ namespace Калькулятор
                 Option = true;
                 choice = -1;
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Fraction_Click(object sender, EventArgs e)
@@ -154,6 +166,8 @@ namespace Калькулятор
                 Option = true;
                 choice = -1;
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Clear_Click(object sender, EventArgs e)
@@ -164,6 +178,8 @@ namespace Калькулятор
             y = 0;
             z = 0;
             Option = true;
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Point_Click(object sender, EventArgs e)
@@ -213,6 +229,8 @@ namespace Калькулятор
             {
 
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Minus_Click(object sender, EventArgs e)
@@ -269,6 +287,8 @@ namespace Калькулятор
                 Option = true;
                 choice = 5;
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Sin_Click(object sender, EventArgs e)
@@ -277,6 +297,8 @@ namespace Калькулятор
             textBox1.Text = Math.Sin(Convert.ToDouble(textBox1.Text)).ToString();
             Option = true;
             choice = -1;
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Cos_Click(object sender, EventArgs e)
@@ -285,6 +307,8 @@ namespace Калькулятор
             textBox1.Text = Math.Cos(Convert.ToDouble(textBox1.Text)).ToString();
             Option = true;
             choice = -1;
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Tan_Click(object sender, EventArgs e)
@@ -293,6 +317,8 @@ namespace Калькулятор
             textBox1.Text = Math.Tan(Convert.ToDouble(textBox1.Text)).ToString();
             Option = true;
             choice = -1;
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Remainder_Click(object sender, EventArgs e)
@@ -305,6 +331,8 @@ namespace Калькулятор
                 Option = true;
                 choice = 6;
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
 
