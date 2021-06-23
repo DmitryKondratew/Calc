@@ -1,0 +1,9 @@
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe.config
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\bin\Debug\Калькулятор.pdb
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csprojResolveAssemblyReference.cache
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.Cache
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.exe
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.pdb
+D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Calculator.resources
