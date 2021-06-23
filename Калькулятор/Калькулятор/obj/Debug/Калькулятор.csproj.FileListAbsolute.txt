@@ -15,3 +15,4 @@ C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулято
 C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.Cache
 C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe
 C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\bin\Debug\Калькулятор.pdb
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csprojResolveAssemblyReference.cache

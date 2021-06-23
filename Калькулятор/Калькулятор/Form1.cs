@@ -43,6 +43,9 @@ namespace Калькулятор
             else if (e.KeyCode == Keys.Back) Delete_Click(Clear, new EventArgs());
             else if (e.KeyCode == Keys.Divide) Division_Click(Division, new EventArgs());
             else if (e.KeyCode == Keys.Multiply) Multiply_Click(Multiply, new EventArgs());
+            else if (e.KeyCode == Keys.Subtract || e.KeyCode == Keys.OemMinus) Minus_Click(Minus, new EventArgs());
+            else if (e.KeyCode == Keys.Oemplus || e.KeyCode == Keys.Add) Sum_Click(Sum, new EventArgs());
+            else if (e.KeyCode == Keys.Decimal) Point_Click(Point, new EventArgs());
         }
 
         private void Sum_Click(object sender, EventArgs e)
