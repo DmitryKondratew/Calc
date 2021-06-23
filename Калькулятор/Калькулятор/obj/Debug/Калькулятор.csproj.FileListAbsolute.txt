@@ -7,3 +7,11 @@ D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Кал
 D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.exe
 D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.pdb
 D:\ПРОЕКТЫ\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Calculator.resources
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe.config
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.exe
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.pdb
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Calculator.resources
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.Properties.Resources.resources
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\obj\Debug\Калькулятор.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\bin\Debug\Калькулятор.exe
+C:\Users\Дмитрий\Desktop\Calc\Калькулятор\Калькулятор\bin\Debug\Калькулятор.pdb

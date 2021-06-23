@@ -40,6 +40,7 @@ namespace Калькулятор
             else if (e.KeyCode == Keys.NumPad7) Number_Click(Number_7, new EventArgs());
             else if (e.KeyCode == Keys.NumPad8) Number_Click(Number_8, new EventArgs());
             else if (e.KeyCode == Keys.NumPad9) Number_Click(Number_9, new EventArgs());
+            else if (e.KeyCode == Keys.Back) Delete_Click(Clear, new EventArgs());
         }
 
         private void Sum_Click(object sender, EventArgs e)
@@ -102,7 +103,8 @@ namespace Калькулятор
                 Option = false;
             }
             else textBox1.Text += (sender as Button).Text;
-            textBox1.Select();
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Delete_Click(object sender, EventArgs e)
