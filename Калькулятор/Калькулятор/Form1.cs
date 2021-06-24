@@ -46,6 +46,9 @@ namespace Калькулятор
             else if (e.KeyCode == Keys.Subtract || e.KeyCode == Keys.OemMinus) Minus_Click(Minus, new EventArgs());
             else if (e.KeyCode == Keys.Oemplus || e.KeyCode == Keys.Add) Sum_Click(Sum, new EventArgs());
             else if (e.KeyCode == Keys.Decimal) Point_Click(Point, new EventArgs());
+            else if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Enter) Equally_Click(Equally, new EventArgs());
+            //MessageBox.Show(e.KeyCode.ToString());
+
         }
 
         private void Sum_Click(object sender, EventArgs e)
@@ -199,6 +202,8 @@ namespace Калькулятор
         {
             y = Convert.ToDouble(textBox1.Text);
 
+            bool error = false;
+
             switch (choice)
             {
                 case 1:
@@ -211,27 +216,37 @@ namespace Калькулятор
                     z = x * y;
                     break;
                 case 4:
-                    if (y == 0.0) textBox1.Text = "Деление на ноль не возможно";
+                    if (y == 0.0)
+                    {
+                        textBox1.Text = "Деление на ноль не возможно";
+                        error = true;
+                        MessageBox.Show("Деление на ноль не возможно");
+                    }
                     else z = x / y;
                     break;
                 case 5:
                     z = Math.Pow(x, y);
                     break;
                 case 6:
-                    if (y == 0.0) textBox1.Text = "Результат не определен";
+                    if (y == 0.0)
+                    {
+                        textBox1.Text = "Результат не определен";
+                        error = true;
+                        MessageBox.Show("Результат не определен");
+                    }
                     else z = x % y;
                     break;
             }
-            try
+            if (error == false)
             {
                 textBox1.Text = z.ToString();
-                Option = true;
-                choice = -1;
             }
-            catch
+            else
             {
-
+                x = y = z = 0;
             }
+            Option = true;
+            choice = -1;
             textBox1.Focus();
             textBox1.Select(0, 0);
         }
@@ -278,6 +293,8 @@ namespace Калькулятор
                 Option = true;
                 choice = 4;
             }
+            textBox1.Focus();
+            textBox1.Select(0, 0);
         }
 
         private void Power_Click(object sender, EventArgs e)
