@@ -355,8 +355,12 @@ namespace Калькулятор
             textBox1.Select(0, 0);
         }
 
-
-
+        private void CE_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "0";
+            textBox1.Focus();
+            textBox1.Select(0, 0);
+        }
 
     }
 }

@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Calculator));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Delete = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.CE = new System.Windows.Forms.Button();
             this.Clear = new System.Windows.Forms.Button();
             this.Sign = new System.Windows.Forms.Button();
             this.Sqrt = new System.Windows.Forms.Button();
@@ -86,15 +86,16 @@
             this.Delete.UseVisualStyleBackColor = true;
             this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
-            // button2
+            // CE
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(60, 80);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(42, 35);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "CE";
-            this.button2.UseVisualStyleBackColor = true;
+            this.CE.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CE.Location = new System.Drawing.Point(60, 80);
+            this.CE.Name = "CE";
+            this.CE.Size = new System.Drawing.Size(42, 35);
+            this.CE.TabIndex = 2;
+            this.CE.Text = "CE";
+            this.CE.UseVisualStyleBackColor = true;
+            this.CE.Click += new System.EventHandler(this.CE_Click);
             // 
             // Clear
             // 
@@ -430,7 +431,7 @@
             this.Controls.Add(this.Sqrt);
             this.Controls.Add(this.Sign);
             this.Controls.Add(this.Clear);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.CE);
             this.Controls.Add(this.Delete);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -447,7 +448,7 @@
 
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Delete;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button CE;
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Sign;
         private System.Windows.Forms.Button Sqrt;
