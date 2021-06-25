@@ -1,0 +1,28 @@
+D:\ДИПЛОМ\Новая папка\Calc\Calc\bin\Debug\Calc.exe.config
+D:\ДИПЛОМ\Новая папка\Calc\Calc\bin\Debug\Calc.exe
+D:\ДИПЛОМ\Новая папка\Calc\Calc\bin\Debug\Calc.pdb
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc.csprojResolveAssemblyReference.cache
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\MainWindow.baml
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\MainWindow.g.cs
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\App.g.cs
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc.g.resources
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.Cache
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc.exe
+D:\ДИПЛОМ\Новая папка\Calc\Calc\obj\Debug\Calc.pdb
+D:\ПРОЕКТЫ\Calc\Calc\bin\Debug\Calc.exe.config
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\Calc.exe
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\Calc.pdb
+D:\ПРОЕКТЫ\Calc\Calc\bin\Debug\Calc.exe
+D:\ПРОЕКТЫ\Calc\Calc\bin\Debug\Calc.pdb
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\MainWindow.baml
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\MainWindow.g.cs
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\App.g.cs
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\Calc.g.resources
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+D:\ПРОЕКТЫ\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Desktop\Calc\CalcWPF\Calc\bin\Debug\Calc.exe.config
+C:\Users\Дмитрий\Desktop\Calc\CalcWPF\Calc\obj\Debug\Calc.exe
+C:\Users\Дмитрий\Desktop\Calc\CalcWPF\Calc\obj\Debug\Calc.pdb
